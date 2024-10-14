@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(145deg, rgba(244, 232, 255, 0.7), rgba(242, 253, 253, 0.7), rgba(254, 231, 216, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 15px;
+}
+
+.inside-container {
+    display: flex;
+    border-radius: 10px;
+    opacity: 0.8;
+    background: linear-gradient(145deg, #F4E8FF, #F2FDFD, #FEE7D8);
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.text {
+    flex: 1;
+    color: black;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.text:last-child {
+    border-right: none;
+}
+
+.text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text .price {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.text .free-btn {
+    background-color: #D2A6FE;
+    margin-top: auto;
+    align-self: center;
+}
+
+.text .standard-btn {
+    background-color: #6BE6E6;
+    margin-top: auto;
+    align-self: center;
+}
+
+.text .premium-btn {
+    background-color: #FEC78B;
+    margin-top: auto;
+    align-self: center;
+}
+
+.text button:hover {
+    opacity: 0.9;
+}
